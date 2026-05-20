@@ -1,0 +1,31 @@
+body{
+    margin-left: 20px;
+    font-family: Arial;
+}
+.chat{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 16px;
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 15px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2); /* light black border */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+.msg{
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 16px;
+
+    /* IMPORTANT FIX */
+
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
