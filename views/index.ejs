@@ -21,6 +21,16 @@
         <p>Recieved by <i> <%= chat.to %></i></p>
         <hr>
 
+        <p>
+  <%= chat.created_at.toLocaleString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true
+  }) %>
+</p>
     </div>
     <br><br>
   <%  } %>
